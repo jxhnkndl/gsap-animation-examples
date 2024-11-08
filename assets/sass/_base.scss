@@ -1,18 +1,34 @@
 body {
-  background-color: $color-beige;
-  color: $color-black;
-  font-family: $font-primary;
+    background-color: $color-beige;
+    color: $color-black;
+    font-family: $font-primary;
 }
 
 section {
-  padding: clamp(3rem, 1.235rem + 4.706vw, 5rem) 0;
+    padding: clamp(3rem, 1.235rem + 4.706vw, 5rem) 0;
+}
+
+h1 {
+    font-size: 10rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+p {
+    line-height: 1.6rem;
 }
 
 .side-padding {
-  padding: 0 clamp(1.5rem, 0.176rem + 3.529vw, 3rem);
+    padding: 0 clamp(1.5rem, 0.176rem + 3.529vw, 3rem); 
 }
 
 .max-w-container {
-  margin: 0 auto;
-  max-width: 64rem;
+    margin: 0 auto;
+    max-width: 64rem;
 }
