@@ -1,3 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Hahmlet:wght@200&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+.side-padding {
+  padding: 0 clamp(2rem, 0.929rem + 2.857vw, 3.5rem);
+}
+
+.max-w-container {
+  margin: 0 auto;
+  max-width: 77.5rem;
+}
+
+header {
+  font-size: 1.25rem;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+header .nav-wrapper {
+  align-items: center;
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+}
+header .nav-wrapper .link-container {
+  align-items: center;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.25px;
+}
+header .nav-wrapper .link-container .brandmark {
+  color: #14141d;
+  margin-right: 5rem;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header .nav-wrapper .link-container ul {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+}
+header .nav-wrapper .link-container ul li a {
+  color: #14141d;
+  text-decoration: none;
+}
+header .nav-wrapper .menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+header .nav-wrapper .menu-container .menu-bar {
+  background-color: #14141d;
+  height: 3px;
+}
+header .nav-wrapper .menu-container .menu-bar-top {
+  width: 40px;
+}
+header .nav-wrapper .menu-container .menu-bar-bottom {
+  width: 30px;
+}
+
+.hero-section {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: auto;
+  min-height: 100vh;
+}
+.hero-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Hahmlet", serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 5rem;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.hero-section-content .accent {
+  font-family: "Gloria Hallelujah", serif;
+}
+.hero-section-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-section-image img {
+  object-fit: cover;
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
