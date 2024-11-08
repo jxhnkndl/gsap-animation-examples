@@ -1,4 +1,18 @@
 body {
   background-color: $color-beige;
+  color: $color-black;
   font-family: $font-primary;
+}
+
+section {
+  padding: clamp(3rem, 1.235rem + 4.706vw, 5rem) 0;
+}
+
+.side-padding {
+  padding: 0 clamp(1.5rem, 0.176rem + 3.529vw, 3rem);
+}
+
+.max-w-container {
+  margin: 0 auto;
+  max-width: 64rem;
 }
