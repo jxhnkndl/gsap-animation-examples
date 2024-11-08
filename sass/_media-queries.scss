@@ -1,0 +1,27 @@
+// 640px+
+@mixin screen-sm {
+  @media (min-width: $screen-sm) {
+    @content;
+  }
+}
+
+// 768px+
+@mixin screen-md {
+  @media (min-width: $screen-md) {
+    @content;
+  }
+}
+
+// 1024px+
+@mixin screen-lg {
+  @media (min-width: $screen-lg) {
+    @content;
+  }
+}
+
+// 1280+
+@mixin screen-xl {
+  @media (min-width: $screen-xl) {
+    @content;
+  }
+}
